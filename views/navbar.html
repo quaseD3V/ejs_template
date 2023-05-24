@@ -1,0 +1,15 @@
+<!-- navbar.ejs -->
+<nav class="navbar">
+  <ul class="navbar-blocks">
+    <% for (var i=0; i < links.length; i++) { %>
+      <!-- <img src="<%=img%>" alt="" srcset=""> </img> -->
+      <a style="color: black; text-decoration:none ;" href="<%= links[i].href %>" class="nav-link">
+        <%= links[i].text %>
+      </a>
+
+      <span class="link-text">
+
+      </span>
+      <% } %>
+  </ul>
+</nav>
